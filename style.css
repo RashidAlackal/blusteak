@@ -1,0 +1,599 @@
+
+/* font-family: 'Montserrat', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    /* overflow: hidden; */
+    font-family: 'Montserrat', sans-serif!important;
+}
+p{
+    line-height: 16px;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: none!important;
+}
+.boldLine{
+    width: 30px;
+    height: 3px;
+    background: #314ca4;
+    margin: 10px auto;
+}
+
+/* navbar .......................................................................... */
+
+
+
+
+.navbar-brand {
+    color: #000;
+    padding: 0 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nav-menu {
+    background: transparent;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+    transition: all .4s;
+}
+
+@media (max-width:34em) {
+    .nav-menu {
+        background: #000 !important;
+    }
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.menu-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+@media (max-width: 34em) {
+    .menu-item {
+        padding: 10px 10px 10px;
+    }
+}
+
+.navbar-toggler {
+    cursor: pointer;
+    outline: 0;
+}
+
+.ham {
+    transition: width 0.3s;
+    background: #F9F8F7;
+}
+
+.line1, .line3  {
+    width: 28px;
+    height: 2px;
+    margin: 6px;    
+    transition:  0.4s;
+    
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-3px, 2px);
+}
+
+.change .line3 {
+    transform: rotate(45deg) translate(-3px, -2px);
+}
+
+.menu-item:hover {
+    color: rgb(219, 82, 82);
+}
+
+.nav-active {
+    color: rgb(214, 86, 86);
+}
+
+.dropdown-item {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.costum-navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000 !important;  
+    position: fixed;
+}
+
+.brandName h2{
+    color: #314ca4;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+
+/* .topNav{
+    background: #ffffff;
+    box-shadow: 0 10px 10px -10px rgba(87, 97, 100, 0.35)
+}
+
+.brandName h2{
+    color: #314ca4;
+    font-weight: 600;
+}
+.pageLink a{
+    font-size: 12px;
+    font-weight: 600;
+} */
+
+/* banner........................................................................ */
+
+.topBanner{
+    background-color: #f6f6f6;
+}
+.topBanner .container{
+    background-repeat: no-repeat;
+    background-image: url(assets/bl1.png);
+    /* background-color: #f6f6f6; */
+    background-size: contain;
+    background-position: right; 
+}
+.j-cover{
+    height: 100vh;
+    padding-top: 20%;
+    max-width: 500px;
+    
+}
+.j-cover h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.j-cover h4{
+    color: #000;
+}
+.pTag{
+    color: #000000;
+    padding-left: 20px 0;
+}
+.mainButton{
+    background: #314ca4;
+    color: #fff;
+    box-shadow: 0 14px 34px -10px rgba(0,0,0,.15), 0 14px 34px -10px rgba(0,0,0,.15);
+    text-align: inherit;
+    line-height: 9px;
+    border-width: 2px;
+    margin: 0px;
+    padding: 12px 35px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.mainButton:hover{
+    transition: width .25s,box-shadow 1s;
+}
+
+/* category card........................................................ */
+
+.serviceDiv{
+    padding: 100px;
+    /* background-color: #d5d5d5; */
+}
+.servSh{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #314ca4;
+    padding-bottom: 13px;
+}
+.servHead{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.icoN{
+    font-size: 50px;
+    padding: 25px;
+    color: #424c4d;
+}
+.cDeck{
+    padding: 30px;
+}
+.serviceDiv .card{
+    text-align: center;
+    border: none!important;
+    background: #f6f8ff;
+    position: relative;
+}
+.serviceDiv .card::before{
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom:0;
+    width: 80%;
+    height: 20px;
+    background: blue;
+    opacity: 0.15;
+    z-index: -1;
+    filter: blur(16px);
+}
+.serviceDiv .card-body{
+    display: flex;
+    align-items: center;
+}
+.cdServ{
+    padding-bottom: 44px;
+
+}
+.serviceDiv .card-body h5{
+    padding-top: 20px;
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+}
+.cService{
+    font-size: 30px;
+    background: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 11px;
+    color: #fff;
+    box-shadow: 0px 0px 0px 9px #d3d3ff;
+    margin: 19px 30px 19px 19px;
+}
+
+/* bg banner............................................................. */
+
+.secBanner{
+    background-repeat: no-repeat;
+    background-color: rgb(19, 25, 46);
+    
+    position: relative;
+    
+}
+.secBanner::before{
+    content: "";
+    background-image: url(assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+    display: block!important;
+    /* z-index: -1; */
+}
+.bgH{
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bgH h3,h5{
+    color: #ffffff;
+    z-index: 20;
+}
+.bgH h3{
+    font-size: 40px;
+}
+.bannerC{
+    background: #ffffff;
+    color: #314ca4;
+}
+
+/* bg img card................................................................. */
+
+.bgIm{
+    padding: 100px;
+}
+.bgIm p{
+    padding-bottom: 40px;
+}
+.rIcon{
+    border: 1px solid #fff;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.Licon{
+    color: #fff;
+}
+.bgIm .card-body{
+    padding: 3rem 2rem;
+}
+.bCard h5{
+    padding-top: 25px;
+}
+.bCard h6{
+    color: #fff;
+}
+
+.bgIm .card{
+    /* background-image: url(assets/cardimg.jpg); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+}
+.bgIm .card1{
+    background-image: url(assets/card1.jpg);
+}
+.bgIm .card2{
+    background-image: url(assets/card2.jpg);
+}
+.bgIm .card3{
+    background-image: url(assets/card3.jpg);
+}
+.bgIm .card4{
+    background-image: url(assets/card1.jpg);
+}
+.bgIm .card5{
+    background-image: url(assets/card2.jpg);
+}
+.bgIm .card6{
+    background-image: url(assets/card3.jpg);
+}
+.bgIm .card7{
+    background-image: url(assets/card1.jpg);
+}
+.bgIm .card8{
+    background-image: url(assets/card2.jpg);
+}
+.bCard{
+    background-color: #14212fd1;
+}
+
+/* bg about banner........................................................... */
+
+/* .thdBanner{
+    background-repeat: no-repeat;
+    background-color: rgb(19, 25, 46);
+    position: relative;
+} */
+.thdBanner{
+    background-color: rgb(19, 25, 46);;
+}
+.thdBanner{
+    background-repeat: no-repeat;
+    background-image: url(assets/Artboard.jpg);
+    background-size: contain;
+    background-position: left; 
+    background-size: 850px;
+    /* min-height: 700px; */
+}
+/* .thdBanner::before{
+    content: ""
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+    display: block!important;
+} */
+.bgA{
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin-left: auto;
+    padding-left: 50px;
+    text-align: left;
+}
+.bgA h4,p{
+    color: #ffffff;
+    z-index: 20;
+}
+.bgA h4{
+    font-size: 2.0rem;
+}
+
+/* clint carousel........................................................................ */
+
+
+.clientSh{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #314ca4;
+    padding-bottom: 13px;
+}
+.clientHead{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.pText{
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+
+.clientSwip{
+    padding: 100px;
+}
+
+/* swiper............................................................................................... */
+
+.customer-logos {
+    /* background-color: #111; */
+    padding: 20px;
+  }
+  
+  /* Slider */
+  .slick-slide {
+      margin: 0px 20px;
+  }
+  
+  .slick-slide img {
+      width: 70%;
+  }
+  
+  .slick-slider
+  {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+  
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+      display: block;
+      overflow: hidden;
+  
+      margin: 0;
+      padding: 0;
+  }
+  .slick-list:focus
+  {
+      outline: none;
+  }
+  .slick-list.dragging
+  {
+      cursor: pointer;
+      cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list
+  {
+      -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+           -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+  
+      display: block;
+  }
+  .slick-track:before,
+  .slick-track:after
+  {
+      display: table;
+  
+      content: '';
+  }
+  .slick-track:after
+  {
+      clear: both;
+  }
+  .slick-loading .slick-track
+  {
+      visibility: hidden;
+  }
+  
+  .slick-slide
+  {
+      display: none;
+      float: left;
+  
+      height: 100%;
+      min-height: 1px;
+  }
+  [dir='rtl'] .slick-slide
+  {
+      float: right;
+  }
+  .slick-slide img
+  {
+      display: block;
+  }
+  .slick-slide.slick-loading img
+  {
+      display: none;
+  }
+  .slick-slide.dragging img
+  {
+      pointer-events: none;
+  }
+  .slick-initialized .slick-slide
+  {
+      display: block;
+  }
+  .slick-loading .slick-slide
+  {
+      visibility: hidden;
+  }
+  .slick-vertical .slick-slide
+  {
+      display: block;
+  
+      height: auto;
+  
+      border: 1px solid transparent;
+  }
+  .slick-arrow.slick-hidden {
+      display: none;
+  }
+
+  /* ...................................swiper end.................................... */
+
+
+  /* footer.................................................................... */
+
+  .footDiv{
+    background-color: rgba(0, 0, 0, 0.82);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .footDiv h3,li{
+    color: #fff;
+  }
+  .footDiv .soIcon{
+      margin: 0;
+      display: flex;
+      padding-left: 0;
+  }
+  .footDiv ul{
+    list-style: none;
+  }
+  .footDiv ul li{
+      padding: 10px;
+  }
+  .footItm li{
+      font-size: 0.8rem;
+  }
