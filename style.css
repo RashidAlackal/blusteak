@@ -1020,6 +1020,11 @@ a:hover{
 .tcCard{
     border: none!important;
 }
+@media screen and (max-width : 770px){
+    .tcCard{
+        padding-top: 20px;
+    }
+}
 #team h1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
@@ -1088,6 +1093,14 @@ a:hover{
 }
 .cofd{
     display: flex;
+}
+@media screen and (max-width : 770px){
+    .cofd{
+        display: block;
+    }
+    .carD{
+        margin-top: 10px!important;
+    }
 }
 .featured .carD h1 {
     font-size: 25px;
