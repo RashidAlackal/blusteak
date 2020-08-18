@@ -22,7 +22,12 @@ a:hover{
     height: 3px;
     background: #314ca4;
     margin: 10px auto;
+    /* transition: all 0.5s ease; */
 }
+/* .serviceDiv:hover .boldLine{
+    width: 60px;
+    transition: all 0.5s ease;
+} */
 
 /* navbar .......................................................................... */
 
@@ -30,7 +35,7 @@ a:hover{
 
 
 .navbar-brand {
-    color: #000;
+    color: #fff;
     padding: 0 15px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -43,7 +48,7 @@ a:hover{
 .nav-menu {
     background: transparent;
     padding: 30px;
-    position: fixed;
+    position: fixed!important;
     width: 100%;
     z-index: 9999;
 
@@ -52,7 +57,12 @@ a:hover{
 
 @media (max-width:34em) {
     .nav-menu {
-        background: #000 !important;
+        background: #fff !important;
+    }
+    .topNav{
+        padding-left: 0px!important;
+        margin-left: -14px!important;
+        
     }
 }
 
@@ -81,7 +91,7 @@ a:hover{
 
 .ham {
     transition: width 0.3s;
-    background: #F9F8F7;
+    background: #5a6c7a;
 }
 
 .line1, .line3  {
@@ -118,7 +128,7 @@ a:hover{
 .costum-navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #000 !important;  
+    background-color: #fff !important;  
     position: fixed;
 }
 
@@ -126,15 +136,18 @@ a:hover{
     color: #314ca4;
     font-weight: 600;
     text-transform: lowercase;
+    text-shadow: 0 0rem 3rem #55a0b7;
 }
 
 
-/* .topNav{
-    background: #ffffff;
-    box-shadow: 0 10px 10px -10px rgba(87, 97, 100, 0.35)
+.topNav{
+    padding-left: 0px!important;
+    margin-left: -14px!important;
+    /* background: #ffffff;
+    box-shadow: 0 10px 10px -10px rgba(87, 97, 100, 0.35) */
 }
 
-.brandName h2{
+/* .brandName h2{
     color: #314ca4;
     font-weight: 600;
 }
