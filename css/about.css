@@ -182,7 +182,11 @@ button:focus{
 .setitem{
     padding-bottom: 50px;
 }
-
+@media screen and (max-width : 770px) {
+  .setitem{
+    padding-top: 46px;
+  }
+}
 
 /* about detail---------------------------------------------------------------------------------------- */
 
@@ -199,7 +203,7 @@ button:focus{
 }
 .aboutContent::before{
   content: "";
-  background-image: url(/assets/tst6.jpg);
+  background-image: url(../assets/tst6.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -236,9 +240,11 @@ button:focus{
   z-index: 20!important;
 }
 @media screen and (max-width : 770px){
+  .aboutContent{
+    height: 510px;
+  }
   .abContent{
       padding: 0px;
-      height: 600px;
   }
 }
 
@@ -263,6 +269,7 @@ button:focus{
 
   .teamy__team{
     background-color: #1b1b1b;
+    text-align: center;
   }
 
 @media (min-width: 768px){
@@ -276,6 +283,9 @@ button:focus{
 
   .teamy__content{
     font-size: 50%;
+  }
+  .sec_layer{
+    margin-top: 0!important;
   }
 }
 /* 
@@ -562,7 +572,7 @@ body{
   @media (max-width: 1024px){
   
     .scroller{
-      --uiScrollerNumberVisibleItems: var(--scrollerNumberVisibleItems, 1);
+      /* --uiScrollerNumberVisibleItems: var(--scrollerNumberVisibleItems, 1); */
       overflow: hidden;
     }
   
