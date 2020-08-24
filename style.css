@@ -80,6 +80,12 @@ a:hover{
         padding: 10px 10px 10px;
     }
 }
+@media screen and (max-width : 770px) {
+    .bgmg{
+        padding-top: 8%!important;
+        background-position: bottom!important;
+    }
+  }
 
 .navbar-toggler {
     cursor: pointer;
