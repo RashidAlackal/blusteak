@@ -199,7 +199,7 @@ button:focus{
 }
 .aboutContent::before{
   content: "";
-  background-image: url(../assets/white/tst6.jpg);
+  background-image: url(/assets/tst6.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
