@@ -155,7 +155,7 @@ button:focus{
 
 .aboutBanner{
     background-repeat: no-repeat;
-    background-image: url(/assets/workdesk.jpg);
+    background-image: url(../assets/workdesk.jpg);
     /* background-color: #f6f6f6; */
     background-size: cover;
     background-position: right; 
@@ -199,7 +199,7 @@ button:focus{
 }
 .aboutContent::before{
   content: "";
-  background-image: url(/assets/white/tst6.jpg);
+  background-image: url(../assets/white/tst6.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -235,6 +235,13 @@ button:focus{
   color: black;
   z-index: 20!important;
 }
+@media screen and (max-width : 770px){
+  .abContent{
+      padding: 0px;
+      height: 600px;
+  }
+}
+
 
   /* team........................................................................ */
 
