@@ -200,14 +200,16 @@ button:focus{
 } */
 .aboutContent{
     background-repeat: no-repeat;
-    background-color: rgb(220, 220, 220);
+    /* background-color: #fff; */
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.8491771708683473) 68%, rgba(67,67,70,0.742734593837535) 89%, rgba(0,0,0,0.7147233893557423) 100%);
     position: relative;
 }
 .aboutContent::before{
   content: "";
-  background-image: url(../assets/tst6.jpg);
+  background-image: url(../assets/white/tst8.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: absolute;
   left: 0;
   top: 0;
