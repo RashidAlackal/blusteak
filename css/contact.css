@@ -360,7 +360,7 @@ button:focus{
   }
   
   /* Begin Media Queries*/
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 810px) {
       /* #contact {
           height: 1000px;
       } */
@@ -404,11 +404,11 @@ button:focus{
     }
     
     .name, .email, textarea, .send-button {
-      width: 280px;
+      width: 290px;
     } 
     .direct-contact-container {
       margin-top: 60px;
-      max-width: 280px;
+      max-width: 290px;
     }  
     .social-media-list {
       left: 0;
