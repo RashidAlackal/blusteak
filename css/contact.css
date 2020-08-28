@@ -385,6 +385,21 @@ button:focus{
       height: 60px;
       line-height: 60px;
     }
+    .social-media-list li {
+      position: relative; 
+      top: 0;
+      left: -20px;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      margin: 10px auto;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #fff;
+      background-color: rgb(27,27,27);
+      cursor: pointer; 
+      transition: all .2s ease-in-out;
+    }
   }
   
   @media screen and (max-width: 569px) {
@@ -394,6 +409,13 @@ button:focus{
     /* .section-header{
       font-size: 50px;
     } */
+    .mbx{
+      /* padding-top: 100px; */
+      padding-left: 0px!important;
+      padding-right: 0px!important;
+      /* padding-bottom: 100px;  */
+    }
+
     .direct-contact-container, .form-wrapper {
       float: none;
       margin: 0 auto;
@@ -404,7 +426,7 @@ button:focus{
     }
     
     .name, .email, textarea, .send-button {
-      width: 290px;
+      width: 100%;
     } 
     .direct-contact-container {
       margin-top: 60px;
