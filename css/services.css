@@ -254,11 +254,11 @@ button:focus{
   
 /* footer.................................................................... */
 .footDiv{
-    background-color: rgba(0, 0, 0, 0.82);
+    background-color: #111111;
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-  .footDiv h3,li{
+  .footDiv h3,li,i{
     color: #fff;
   }
   .footDiv .soIcon{
@@ -274,4 +274,5 @@ button:focus{
   }
   .footItm li{
       font-size: 0.8rem;
+      /* font: 300 15px 'Lato', sans-serif; */
   }

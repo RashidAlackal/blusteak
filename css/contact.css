@@ -367,6 +367,9 @@ button:focus{
     /* .section-header {
       font-size: 65px;
     } */
+    .mainBox {
+      box-shadow: 0 0px 18px 15px rgba(0,0,0,.1);
+  }
     .direct-contact-container, .form-horizontal {
       float: none;
       margin: 10px auto;
@@ -460,7 +463,7 @@ button:focus{
     .gmail {
       margin-left: 18px;
     }
-    .social-media-list li {
+    /* .social-media-list li {
       position: relative; 
       top: 0;
       left: -20px;
@@ -474,7 +477,7 @@ button:focus{
       background-color: rgb(27,27,27);
       cursor: pointer; 
       transition: all .2s ease-in-out;
-    }
+    } */
   }
   
   @media screen and (max-width: 410px) {

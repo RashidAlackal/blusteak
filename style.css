@@ -793,6 +793,9 @@ button:focus{
 	 letter-spacing: 0.05rem;
 	 box-shadow: 0 1rem 3rem #aac1c7;
 }
+.card__svg-wrapper i{
+	 color: #5a6c7a;
+}
  @media screen and (max-width : 480px) {
 	.achive .card {
 		 margin-bottom: 2rem;
@@ -1211,11 +1214,11 @@ button:focus{
   /* footer.................................................................... */
 
   .footDiv{
-    background-color: rgba(0, 0, 0, 0.82);
+    background-color: #111111;
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-  .footDiv h3,li{
+  .footDiv h3,li,i{
     color: #fff;
   }
   .footDiv .soIcon{
@@ -1231,4 +1234,5 @@ button:focus{
   }
   .footItm li{
       font-size: 0.8rem;
+      /* font: 300 15px 'Lato', sans-serif; */
   }
