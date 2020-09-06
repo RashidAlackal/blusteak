@@ -377,7 +377,7 @@ button:focus{
       font-size: 65px;
     } */
     .mainBox {
-      box-shadow: 0 0px 18px 15px rgba(0,0,0,.1);
+      /* box-shadow: 0 0px 18px 15px rgba(0,0,0,.1); */
   }
     .direct-contact-container, .form-horizontal {
       float: none;
@@ -408,7 +408,8 @@ button:focus{
       line-height: 40px;
       border-radius: 50%;
       color: #fff;
-      background-color: rgb(27,27,27);
+      /* background-color: rgb(27,27,27); */
+      background-color: #5a6c7a;
       cursor: pointer; 
       transition: all .2s ease-in-out;
     }
@@ -448,16 +449,24 @@ button:focus{
       left: 0;
     }
     .social-media-list li {
-      height: 55px;
-      width: 55px;
-      line-height: 55px;
-      font-size: 2rem;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      font-size: 1.5rem;
     }
     .social-media-list li:after {
-      width: 55px;
-      height: 55px;
-      line-height: 55px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
     }
+    .social-media-list {
+      padding-left: 10%;
+      padding-right: 0%;
+      position: relative;
+      font-size: 0.5rem;
+      text-align: center;
+      width: 100%;
+  }
     .contact-list {
       padding-right: 7px;
     }
